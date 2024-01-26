@@ -21,7 +21,7 @@ const Events = () => {
           <div className="p-5">
             <a href="/">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Quiz
+                The Turing Test: Quiz Competition
               </h5>
             </a>
 
@@ -59,7 +59,7 @@ const Events = () => {
           <div className="p-5">
             <a href="/">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Debate
+                ChatGPT Boon or Bane: Debate Competition
               </h5>
             </a>
 

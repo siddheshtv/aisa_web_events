@@ -7,9 +7,15 @@ const Debate = () => {
     <div>
       <Navbar />
       <div className="my-24 px-4">
-        <h1 className="text-center text-4xl lg:text-6xl font-bold pb-6">
-          Debate Registration
-        </h1>
+        <div className="flex justify-center">
+          <div className="lg:max-w-5xl">
+            <h1 className="text-center text-4xl lg:text-6xl font-bold pb-6">
+              ChatGPT, A Boon or a Bane
+            </h1>
+            <p className="text-center">Debate Competition Registration</p>
+          </div>
+        </div>
+
         <div className="flex justify-center">
           <div className="text-center py-24 max-w-3xl">
             <h1 className="text-xl font-bold py-3">Details</h1>

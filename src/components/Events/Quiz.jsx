@@ -7,9 +7,14 @@ const Quiz = () => {
     <div>
       <Navbar />
       <div className="my-24 px-4">
-        <h1 className="text-center text-4xl lg:text-6xl font-bold pb-24">
-          Quiz Registration
-        </h1>
+        <div className="flex justify-center">
+          <div className="lg:max-w-5xl">
+            <h1 className="text-center text-4xl lg:text-6xl font-bold pb-24">
+              The Turing Test: Quiz Competition Registration
+            </h1>
+          </div>
+        </div>
+
         <form
           className="max-w-4xl mx-auto grid lg:grid-cols-2 lg:gap-x-6 grid-cols-1"
           action="https://formspree.io/f/xeqyerlv"
