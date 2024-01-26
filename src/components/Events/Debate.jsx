@@ -7,9 +7,24 @@ const Debate = () => {
     <div>
       <Navbar />
       <div className="my-24 px-4">
-        <h1 className="text-center text-4xl lg:text-6xl font-bold pb-24">
+        <h1 className="text-center text-4xl lg:text-6xl font-bold pb-6">
           Debate Registration
         </h1>
+        <div className="flex justify-center">
+          <div className="text-center py-24 max-w-3xl">
+            <h1 className="text-xl font-bold py-3">Details</h1>
+            <p>
+              Total of 2 teams will be selected for the debate competition.
+              Every team member must include of 4 members. The topic of the
+              debate competition is: <strong>ChatGPT, a boon or a bane</strong>.
+              Each member of the team will say their perspective. After the
+              perspective is heard, audience and the opposition will have the
+              right to cross question, while the respective member must defend
+              their perspective.
+            </p>
+          </div>
+        </div>
+
         <form
           className="max-w-4xl mx-auto grid lg:grid-cols-2 lg:gap-x-6 grid-cols-1"
           action="https://formspree.io/f/moqgjknr"
