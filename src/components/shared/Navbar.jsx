@@ -15,7 +15,7 @@ const Navbar = () => {
 
             <button
               type="button"
-              class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
+              class="hidden p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
             >
               <svg
                 class="block w-6 h-6"

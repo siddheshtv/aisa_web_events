@@ -4,11 +4,11 @@ import cover from "../../assets/coverunsplash.jpg";
 
 const Hero = () => {
   return (
-    <div>
-      <div className="relative min-h-screen flex justify-center items-center">
-        <section className="py-3 lg:py-10 absolute z-10">
-          <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-3">
+    <div className="min-h-screen relative overflow-hidden">
+      <div className="relative min-h-screen flex justify-center items-center z-10">
+        <div className="py-3 lg:py-10 absolute z-0 w-full">
+          <div className="px-4 mx-auto lg:max-w-7xl sm:px-6 lg:px-8">
+            <div className="grid items-center grid-cols-1 gap-y-12 lg:gap-y-0 lg:gap-x-12 lg:grid-cols-3">
               <div className="col-span-2">
                 <p className="text-base font-semibold text-blue-600 uppercase pt-12 lg:pt-0">
                   For the students, By the students
@@ -36,9 +36,9 @@ const Hero = () => {
                     stroke="currentColor"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
@@ -46,17 +46,17 @@ const Hero = () => {
               </div>
 
               <div className="flex justify-center">
-                <img className="w-1/2 lg:w-full" src={years} alt="" />
+                <img className="w-4/5 lg:w-full" src={years} alt="" />
               </div>
             </div>
           </div>
-        </section>
-        <img
-          className="w-full object-fit brightness-50 -z-10"
-          src={cover}
-          alt="Cover"
-        />
+        </div>
       </div>
+      <img
+        className="object-cover absolute inset-0 w-full h-full brightness-50"
+        src={cover}
+        alt="Cover"
+      />
     </div>
   );
 };
