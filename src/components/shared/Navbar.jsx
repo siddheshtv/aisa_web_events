@@ -1,5 +1,6 @@
 import React from "react";
 import aisa_logo from "../../assets/aisa.png";
+import ioit_logo from "../../assets/ioit_text_dark.png";
 
 const Navbar = () => {
   return (
@@ -8,8 +9,9 @@ const Navbar = () => {
         <div class="px-4 mx-auto sm:px-6 lg:px-8">
           <div class="flex items-center justify-between h-16 lg:h-20">
             <div class="flex-shrink-0">
-              <a href="/" title="" class="flex">
+              <a href="/" title="" class="flex space-x-3 items-center">
                 <img class="w-auto h-24" src={aisa_logo} alt="" />
+                <img class="w-auto h-14" src={ioit_logo} alt="" />
               </a>
             </div>
 
