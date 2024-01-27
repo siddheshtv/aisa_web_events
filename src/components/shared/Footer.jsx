@@ -50,7 +50,7 @@ const Footer = () => {
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
                     <a
-                      href="https://www.instagram.com/aisa_ioit?igsh=MTEzdDk3MmNscGMwOQ=="
+                      href="https://www.instagram.com/aisa_ioit?igsh=MTEzdDk3MmNscGMwOQ"
                       className="hover:underline "
                     >
                       Instagram
