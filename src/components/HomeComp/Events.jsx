@@ -10,7 +10,7 @@ const Events = () => {
         Current Events
       </h1>
       <div className="py-16 flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-12 justify-center items-center">
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="/">
             <img
               className="rounded-t-lg h-[250px]"
@@ -48,18 +48,18 @@ const Events = () => {
             </a>
           </div>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="/">
             <img
               className="rounded-t-lg h-[250px]"
-              src="https://www.shutterstock.com/image-vector/man-woman-candidates-discussing-on-600nw-1747586771.jpg"
+              src="https://competition.ledx.law/wp-content/uploads/sites/17/2023/02/debate.png"
               alt=""
             />
           </a>
           <div className="p-5">
             <a href="/">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                ChatGPT Boon or Bane: Debate Competition
+                AI & Robotics, Future of Humanity: Debate Competition
               </h5>
             </a>
 

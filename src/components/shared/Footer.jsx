@@ -1,6 +1,5 @@
 import React from "react";
 import aisa_logo from "../../assets/aisa.png";
-import years from "../../assets/25_years.png";
 import ioit_logo from "../../assets/ioit_text_dark.png";
 
 const Footer = () => {

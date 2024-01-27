@@ -10,7 +10,7 @@ const Debate = () => {
         <div className="flex justify-center">
           <div className="lg:max-w-5xl">
             <h1 className="text-center text-4xl lg:text-6xl font-bold pb-6">
-              ChatGPT, A Boon or a Bane
+              AI & Robotics, Future of Humanity: Debate Competition
             </h1>
             <p className="text-center">Debate Competition Registration</p>
           </div>
@@ -22,11 +22,14 @@ const Debate = () => {
             <p>
               Total of 2 teams will be selected for the debate competition.
               Every team member must include of 4 members. The topic of the
-              debate competition is: <strong>ChatGPT, a boon or a bane</strong>.
-              Each member of the team will say their perspective. After the
-              perspective is heard, audience and the opposition will have the
-              right to cross question, while the respective member must defend
-              their perspective.
+              debate competition is:{" "}
+              <strong>AI & Robotics, Future of Humanity</strong>. The first
+              selected team will defend why AI and Robotics are great for
+              humanity and the opposition team will defend why they are wrong
+              with their own point of view. Each member of the team will say
+              their perspective. After the perspective is heard, audience and
+              the opposition will have the right to cross question, while the
+              respective member must defend their perspective.
             </p>
           </div>
         </div>
