@@ -11,7 +11,7 @@ const Navbar = () => {
             <div class="flex-shrink-0">
               <a href="/" title="" class="flex space-x-3 items-center">
                 <img class="w-auto h-24" src={aisa_logo} alt="" />
-                <img class="w-auto h-14" src={ioit_logo} alt="" />
+                <img class="w-1/2 lg:w-auto h-14" src={ioit_logo} alt="" />
               </a>
             </div>
 
