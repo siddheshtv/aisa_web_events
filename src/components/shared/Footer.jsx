@@ -76,7 +76,7 @@ const Footer = () => {
               </a>
               . All Rights Reserved.
             </span>
-            <span className="py-4">
+            <span className="py-4 text-gray-900 dark:text-white">
               Developed with ❤️ + ☕ by Siddhesh Kulthe.{" "}
               <a href="https://linkedin.com/in/siddheshkulthe">
                 <span className="underline underline-offset-4">
