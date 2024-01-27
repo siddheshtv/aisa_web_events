@@ -19,7 +19,7 @@ const Events = () => {
             />
           </a>
           <div className="p-5">
-            <a href="/">
+            <a href="/quiz-register">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 The Turing Test: Quiz Competition
               </h5>
@@ -57,7 +57,7 @@ const Events = () => {
             />
           </a>
           <div className="p-5">
-            <a href="/">
+            <a href="/debate-register">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 AI & Robotics, Future of Humanity: Debate Competition
               </h5>
