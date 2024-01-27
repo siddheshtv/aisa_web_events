@@ -76,6 +76,14 @@ const Footer = () => {
               </a>
               . All Rights Reserved.
             </span>
+            <span>
+              Developed with ❤️ + ☕ by Siddhesh Kulthe.{" "}
+              <a href="https://linkedin.com/in/siddheshkulthe">
+                <span className="underline underline-offset-4">
+                  LinkedIn &rarr;
+                </span>
+              </a>
+            </span>
           </div>
         </div>
       </footer>
