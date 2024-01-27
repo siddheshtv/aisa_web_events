@@ -68,7 +68,7 @@ const Footer = () => {
             </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div className="sm:flex sm:items-center sm:justify-between">
+          <div className="sm:flex sm:items-center sm:justify-between grid grid-cols-1 lg:grid-cols-2 gap-y-4 lg:gap-y-0">
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2024{" "}
               <a href="https://aissmsioit.org/" className="hover:underline">
@@ -76,7 +76,7 @@ const Footer = () => {
               </a>
               . All Rights Reserved.
             </span>
-            <span>
+            <span className="py-4">
               Developed with ❤️ + ☕ by Siddhesh Kulthe.{" "}
               <a href="https://linkedin.com/in/siddheshkulthe">
                 <span className="underline underline-offset-4">
