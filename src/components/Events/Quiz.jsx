@@ -70,6 +70,22 @@ const Quiz = () => {
                 required
               />
             </div>
+            <div className="mb-5">
+              <label
+                for="number"
+                className="block mb-2 text-sm font-medium text-gray-900 "
+              >
+                Team Leader Phone Number
+              </label>
+              <input
+                type="number"
+                name="number"
+                id="number"
+                className="bg-gray-50 border border-gray-300 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
+                placeholder="0123456789"
+                required
+              />
+            </div>
           </div>
           <div>
             <div className="mb-5">
@@ -101,6 +117,38 @@ const Quiz = () => {
                 id="mem2-email"
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
                 placeholder="xyz@gmail.com"
+                required
+              />
+            </div>
+            <div className="mb-5">
+              <label
+                for="dept"
+                className="block mb-2 text-sm font-medium text-gray-900 "
+              >
+                Department
+              </label>
+              <input
+                type="text"
+                name="dept"
+                id="dept"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
+                placeholder="AI-DS / CS / IT / EXTC / INSTRU / ELEC / FE"
+                required
+              />
+            </div>
+            <div className="mb-5">
+              <label
+                for="roll"
+                className="block mb-2 text-sm font-medium text-gray-900 "
+              >
+                Roll Numbers
+              </label>
+              <input
+                type="text"
+                name="roll"
+                id="roll"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
+                placeholder="Seperate using comma"
                 required
               />
             </div>

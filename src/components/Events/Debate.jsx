@@ -20,16 +20,22 @@ const Debate = () => {
           <div className="text-center py-24 max-w-3xl">
             <h1 className="text-xl font-bold py-3">Details</h1>
             <p>
-              Total of 2 teams will be selected for the debate competition.
-              Every team member must include of 4 members. The topic of the
+              Total of 4 teams will be shortlisted for the debate competition.
+              Every team member must include of 2 members. The topic of the
               debate competition is:{" "}
-              <strong>AI & Robotics, Future of Humanity</strong>. The first
-              selected team will defend why AI and Robotics are great for
-              humanity and the opposition team will defend why they are wrong
-              with their own point of view. Each member of the team will say
-              their perspective. After the perspective is heard, audience and
-              the opposition will have the right to cross question, while the
-              respective member must defend their perspective.
+              <strong>AI & Robotics, Future of Humanity</strong>. Every team
+              member has to prepare for both perspectives (FOR and AGAINST).
+              Chits will be made containing all the participant names. A chit
+              would be picked, and the selected participant has to speak for the
+              topic, or against the topic. There will be a consistent cycle of
+              DEFENDANT and OPPOSITION.
+            </p>
+            <p className="py-4">
+              For example, Participant A from Team 1 spoke in favor of the
+              topic, then the next chit-picked participant (could be of same
+              team or other) will speak against the topic. This marks as 1
+              Cycle. Such cycles will be carried until all participants have
+              spoken.
             </p>
           </div>
         </div>
@@ -89,6 +95,22 @@ const Debate = () => {
                 required
               />
             </div>
+            <div className="mb-5">
+              <label
+                for="number"
+                className="block mb-2 text-sm font-medium text-gray-900 "
+              >
+                Team Leader Phone Number
+              </label>
+              <input
+                type="number"
+                name="number"
+                id="number"
+                className="bg-gray-50 border border-gray-300 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
+                placeholder="0123456789"
+                required
+              />
+            </div>
           </div>
           <div>
             <div className="mb-5">
@@ -120,6 +142,38 @@ const Debate = () => {
                 id="mem2-email"
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
                 placeholder="xyz@gmail.com"
+                required
+              />
+            </div>
+            <div className="mb-5">
+              <label
+                for="dept"
+                className="block mb-2 text-sm font-medium text-gray-900 "
+              >
+                Department
+              </label>
+              <input
+                type="text"
+                name="dept"
+                id="dept"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
+                placeholder="AI-DS / CS / IT / EXTC / INSTRU / ELEC / FE"
+                required
+              />
+            </div>
+            <div className="mb-5">
+              <label
+                for="roll"
+                className="block mb-2 text-sm font-medium text-gray-900 "
+              >
+                Roll Numbers
+              </label>
+              <input
+                type="text"
+                name="roll"
+                id="roll"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
+                placeholder="Seperate using comma"
                 required
               />
             </div>
